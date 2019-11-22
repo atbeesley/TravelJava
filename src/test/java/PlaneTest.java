@@ -6,8 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class PlaneTest {
 
     private Plane plane;
-//    private int capacity;
-//    private int totalWeight;
+
 
     @Before
     public void before(){
