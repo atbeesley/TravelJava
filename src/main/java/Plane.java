@@ -1,6 +1,6 @@
 public class Plane {
 
-    private planeType planeType;
+    private PlaneType planeType;
 
 
 }
