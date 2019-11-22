@@ -1,14 +1,27 @@
 import org.junit.Before;
+import org.junit.Test;
 
-//public class PlaneTest {
-//
-//    private Plane plane;
+import static org.junit.Assert.assertEquals;
+
+public class PlaneTest {
+
+    private Plane plane;
 //    private int capacity;
 //    private int totalWeight;
-//
-//    @Before
-//    public void before(PlaneType planeType, int ){
-//        plane = new Plane();
-//    }
+
+    @Before
+    public void before(){
+        plane = new Plane(PlaneType.BOEING747);
+    }
+
+    @Test
+    public void canGetCapacity(){
+        assertEquals(200, PlaneType.BOEING747.getCapacity());
+    }
+
+    @Test
+    public void canGetTotalWeight(){
+        assertEquals(1000, PlaneType.BOEING747.getTotalWeight());
+    }
 
 }

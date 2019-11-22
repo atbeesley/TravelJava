@@ -12,14 +12,13 @@ public class Plane {
     }
 
     public int getTotalWeightFromEnum(){
-        return this.planeType.totalWeight();
+        return this.planeType.getTotalWeight();
     }
 
 
     public int getCapacityFromEnum(){
-        return this.planeType.capacity();
+        return this.planeType.getCapacity();
     }
-
 
 
 }
