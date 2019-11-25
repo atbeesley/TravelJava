@@ -15,12 +15,12 @@ public class PlaneTest {
 
     @Test
     public void canGetCapacity(){
-        assertEquals(200, PlaneType.BOEING747.getCapacity());
+        assertEquals(200, plane.getCapacityFromEnum());
     }
 
     @Test
     public void canGetTotalWeight(){
-        assertEquals(1000, PlaneType.BOEING747.getTotalWeight());
+        assertEquals(1000, plane.getTotalWeightFromEnum());
     }
 
 }
